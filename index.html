@@ -26,178 +26,430 @@
     </title>
   </head>
   <body class="bg-blue-main">
-    <header>
-      <a class="block" href="#"
-        ><img src="./images/logo.svg" alt="Fylo brand logo"
+    <header class="flex justify-between items-center p-6">
+      <a class="inline-block" href="#"
+        ><img class="h-6" src="./images/logo.svg" alt="Fylo brand logo"
       /></a>
 
       <nav>
-        <ul class="font-raleway text-white text-xs">
+        <ul class="flex items-center gap-6 font-raleway text-white text-xs">
           <li><a href="#0">Features</a></li>
           <li><a href="#0">Team</a></li>
           <li><a href="#0">Sign In</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <section class="text-white">
-        <img src="./images/illustration-intro.png" alt="" />
-        <h1 class="font-raleway text-2xl">
-          All your files in one secure location, accessible anywhere.
-        </h1>
-        <p class="font-open-sans text-sm">
-          Fylo stores all your most important files in one secure location.
-          Access them wherever you need, share and collaborate with friends
-          family, and co-workers.
+    <section class="text-white text-center pt-8 pb-28 px-9">
+      <img class="mb-8" src="./images/illustration-intro.png" alt="" />
+      <h1 class="font-raleway text-2xl font-bold mb-4">
+        All your files in one secure location, accessible anywhere.
+      </h1>
+      <p class="font-open-sans text-sm mb-8">
+        Fylo stores all your most important files in one secure location. Access
+        them wherever you need, share and collaborate with friends family, and
+        co-workers.
+      </p>
+      <button class="text-sm font-bold px-20 py-4 rounded-full bg-secondary">
+        Get Started
+      </button>
+    </section>
+    <section class="text-white text-center pt-20 px-9">
+      <article class="flex flex-col items-center mb-20">
+        <svg width="91" height="64" xmlns="http://www.w3.org/2000/svg">
+          <g fill="none" fill-rule="evenodd">
+            <path
+              d="M85.588 59C88.025 59 90 57.144 90 54.853V9.236c0-1.526-1.318-2.764-2.941-2.764L85.589 59zM15 12.048v40.047C15 55.908 18.098 59 21.92 59h63.668a4.147 4.147 0 0 1-4.152-4.143V3.762A2.766 2.766 0 0 0 78.668 1h-16.61l-5.536 8.286H17.768A2.766 2.766 0 0 0 15 12.048z"
+              stroke="#62E0D9"
+              stroke-width="1.405"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M41.28 27.561v3.201c0 1.061.841 1.92 1.88 1.92h3.13m2.505 0v-.219c0-.679-.264-1.33-.734-1.811l-4.794-4.902a2.48 2.48 0 0 0-1.772-.75h-13.99C26.12 25 25 26.147 25 27.561v26.89c0 1.414 1.121 2.56 2.505 2.56H46.29c1.383 0 2.505-1.146 2.505-2.56v-8.963"
+              fill="#62E0D9"
+            />
+            <path
+              d="M33.766 49.33v3.84h3.757l11.898-12.164-3.757-3.841-11.898 12.164zm15.655-8.324l1.328-1.358a1.951 1.951 0 0 0 0-2.717l-1.1-1.124a1.85 1.85 0 0 0-2.657 0l-1.328 1.358 3.757 3.841z"
+              stroke="#FFF"
+              stroke-width=".803"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M30.01 37.805h12.523m-12.524 3.841h11.272m-11.272 3.842h7.514"
+              stroke="#FFF"
+              stroke-width=".803"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <g>
+              <path
+                d="M32.367 59.432c0 1.972-1.61 3.572-3.596 3.572H3.596c-1.985 0-3.596-1.6-3.596-3.572v-17.86C0 39.6 1.61 38 3.596 38h25.175c1.985 0 3.596 1.6 3.596 3.572v17.86zM10.789 44.55a2.987 2.987 0 0 1-2.997 2.976 2.987 2.987 0 0 1-2.997-2.976 2.987 2.987 0 0 1 2.997-2.977 2.987 2.987 0 0 1 2.997 2.977z"
+                fill="#62E0D9"
+              />
+              <path
+                stroke="#FFF"
+                stroke-width=".65"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M26.786 58.656L19.737 51.2 16.8 54.307l-4.112-4.349-8.224 8.698"
+              />
+            </g>
+          </g>
+        </svg>
+        <h2 class="font-raleway text-lg font-bold mt-6 mb-2">
+          Access your files, anywhere
+        </h2>
+        <p class="font-open-sans">
+          The ability to use a smartphone, tablet, or computer to access your
+          account means your files follow you everywhere.
         </p>
-        <button class="text-sm">Get Started</button>
-      </section>
-      <section class="text-white">
-        <article>
-          <h2 class="font-raleway text-lg">Access your files, anywhere</h2>
-          <p class="font-open-sans">
-            The ability to use a smartphone, tablet, or computer to access your
-            account means your files follow you everywhere.
-          </p>
-        </article>
-        <article>
-          <h2 class="font-raleway text-lg">Security you can trust</h2>
-          <p class="font-open-sans">
-            2-factor authentication and user-controlled encryption are just a
-            couple of the security features we allow to help secure your files.
-          </p>
-        </article>
-        <article>
-          <h2 class="font-raleway text-lg">Real-time collaboration</h2>
-          <p class="font-open-sans">
-            Securely share files and folders with friends, family and colleagues
-            for live collaboration. No email attachments required.
-          </p>
-        </article>
-        <article>
-          <h2 class="font-raleway text-lg">Store any type of file</h2>
-          <p class="font-open-sans">
-            Whether you're sharing holidays photos or work documents, Fylo has
-            you covered allowing for all file types to be securely stored and
-            shared.
-          </p>
-        </article>
-      </section>
-      <section class="text-white">
-        <img src="./images/illustration-stay-productive.png" alt="" />
-        <div>
-          <h3 class="font-raleway text-lg">
-            Stay productive, wherever you are
-          </h3>
-          <p class="font-open-sans text-sm">
-            Never let location be an issue when accessing your files. Fylo has
-            you covered for all of your file storage needs.
-          </p>
-          <p class="font-open-sans text-sm">
-            Securely share files and folders with friends, family and colleagues
-            for live collaboration. No email attachments required.
-          </p>
-          <a class="font-open-sans text-xs" href="#0">See how Fylo works</a>
-        </div>
-      </section>
-      <section class="text-white">
-        <article class="font-open-sans">
-          <p class="text-[0.625rem]">
-            Fylo has improved our team productivity by an order of magnitude.
-            Since making the switch our team has become a well-oiled
-            collaboration machine.
-          </p>
-          <div>
-            <img src="./images/profile-1.jpg" alt="" />
-            <div>
-              <p class="text-[0.625rem]">Satish Patel</p>
-              <p class="text-[0.5rem]">Founder & CEO, Huddle</p>
+      </article>
+      <article class="flex flex-col items-center mb-20">
+        <svg width="70" height="88" xmlns="http://www.w3.org/2000/svg">
+          <g
+            stroke="#62E0D9"
+            stroke-width="3.064"
+            fill="none"
+            fill-rule="evenodd"
+          >
+            <path
+              d="M43.703 35.501l-12.23 12.474-8.999-9.177-4.499 4.589 13.497 13.766L52.08 36.137l-4.5-4.589z"
+            />
+            <path
+              d="M56.916 9.85c-5.342 0-10.653-1.136-15.482-3.484-2.313-1.113-4.679-2.533-6.724-4.302-2.045 1.769-4.411 3.189-6.725 4.302C23.157 8.714 17.847 9.85 12.504 9.85H1.914v40.59c0 7.11 2.817 13.945 7.827 18.893 7.356 7.25 24.97 16.674 24.97 16.674s17.612-9.424 24.968-16.674c5.01-4.948 7.827-11.784 7.827-18.893V9.85h-10.59z"
+            />
+            <path
+              d="M58.94 24.532v26.249c0 4.742-1.903 9.34-5.219 12.615-4.612 4.547-15.127 10.77-19.01 13-3.886-2.233-14.41-8.463-19.017-13.004-3.314-3.272-5.214-7.869-5.214-12.611V18.927h2.024c6.707 0 13.334-1.499 19.167-4.333a44.31 44.31 0 0 0 3.04-1.61c.972.565 2 1.11 3.064 1.623 5.814 2.826 12.434 4.32 19.141 4.32h2.024v5.605z"
+            />
+          </g>
+        </svg>
+        <h2 class="font-raleway text-lg font-bold mt-6 mb-2">
+          Security you can trust
+        </h2>
+        <p class="font-open-sans">
+          2-factor authentication and user-controlled encryption are just a
+          couple of the security features we allow to help secure your files.
+        </p>
+      </article>
+      <article class="flex flex-col items-center mb-20">
+        <svg width="86" height="71" xmlns="http://www.w3.org/2000/svg">
+          <g
+            stroke="#62E0D9"
+            stroke-width="1.3"
+            fill="none"
+            fill-rule="evenodd"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M33.897 11.338v2.027-2.027zm0 40.551v2.028-2.028zm20.31-18.248h-2.031 2.031zm-40.62 0h-2.032 2.031zm19.294 8.11c-.78 0-1.56-.296-2.153-.89l-13.08-13.057 4.308-4.3L32.881 34.41 60.176 7.16l4.31 4.3-29.45 29.4a3.04 3.04 0 0 1-2.155.89zm23.154-30.417C50.283 5.104 42.039 1.2 32.88 1.2 15.495 1.2 1.4 15.271 1.4 32.627s14.095 31.428 31.481 31.428c17.386 0 31.481-14.072 31.481-31.428 0-6.018-1.694-11.64-4.63-16.417l-3.697-4.876zM51.7 15.616a25.346 25.346 0 0 0-18.82-8.333c-14.022 0-25.388 11.346-25.388 25.344 0 13.999 11.366 25.345 25.388 25.345 14.022 0 25.388-11.346 25.388-25.345 0-4.329-1.087-8.402-3.002-11.966l-3.566-5.045z"
+              stroke-linecap="round"
+            />
+            <path
+              d="M55.368 40.484c0 2.48-2.015 4.49-4.498 4.49a4.494 4.494 0 0 1-4.497-4.49c0-2.48 2.015-4.49 4.497-4.49a4.494 4.494 0 0 1 4.498 4.49z"
+            />
+            <path
+              d="M50.87 44.974c-1.898 0-3.612.583-4.839 1.154a3.34 3.34 0 0 0-1.907 3.033v7.037a2.248 2.248 0 0 0 2.249 2.245v8.979a2.247 2.247 0 0 0 2.249 2.245h4.497a2.247 2.247 0 0 0 2.249-2.245v-8.98a2.248 2.248 0 0 0 2.248-2.244V49.16a3.34 3.34 0 0 0-1.907-3.033c-1.226-.57-2.94-1.154-4.839-1.154z"
+              stroke-linecap="round"
+            />
+            <path
+              d="M68.86 40.484c0 2.48-2.014 4.49-4.498 4.49a4.493 4.493 0 0 1-4.497-4.49c0-2.48 2.014-4.49 4.497-4.49a4.493 4.493 0 0 1 4.497 4.49z"
+            />
+            <path
+              d="M64.362 44.974c-1.898 0-3.612.583-4.839 1.154a3.34 3.34 0 0 0-1.907 3.033v7.037a2.247 2.247 0 0 0 2.249 2.245v8.979a2.248 2.248 0 0 0 2.249 2.245h4.497a2.247 2.247 0 0 0 2.248-2.245v-8.98a2.247 2.247 0 0 0 2.25-2.244V49.16a3.34 3.34 0 0 0-1.908-3.033c-1.226-.57-2.941-1.154-4.839-1.154z"
+              stroke-linecap="round"
+            />
+            <path
+              d="M82.351 40.484c0 2.48-2.013 4.49-4.497 4.49a4.493 4.493 0 0 1-4.497-4.49c0-2.48 2.013-4.49 4.497-4.49a4.493 4.493 0 0 1 4.497 4.49z"
+            />
+            <path
+              d="M77.854 44.974c-1.898 0-3.612.583-4.839 1.154a3.34 3.34 0 0 0-1.907 3.033v7.037a2.247 2.247 0 0 0 2.249 2.245v8.979a2.248 2.248 0 0 0 2.248 2.245h4.498a2.247 2.247 0 0 0 2.248-2.245v-8.98a2.247 2.247 0 0 0 2.249-2.244V49.16a3.34 3.34 0 0 0-1.907-3.033c-1.226-.57-2.941-1.154-4.839-1.154z"
+              stroke-linecap="round"
+            />
+          </g>
+        </svg>
+        <h2 class="font-raleway text-lg font-bold mt-6 mb-2">
+          Real-time collaboration
+        </h2>
+        <p class="font-open-sans">
+          Securely share files and folders with friends, family and colleagues
+          for live collaboration. No email attachments required.
+        </p>
+      </article>
+      <article class="flex flex-col items-center mb-20">
+        <svg width="91" height="64" xmlns="http://www.w3.org/2000/svg">
+          <g fill="none" fill-rule="evenodd">
+            <path
+              d="M85.588 59C88.025 59 90 57.144 90 54.853V9.236c0-1.526-1.318-2.764-2.941-2.764L85.589 59zM15 12.048v40.047C15 55.908 18.098 59 21.92 59h63.668a4.147 4.147 0 0 1-4.152-4.143V3.762A2.766 2.766 0 0 0 78.668 1h-16.61l-5.536 8.286H17.768A2.766 2.766 0 0 0 15 12.048z"
+              stroke="#62E0D9"
+              stroke-width="1.405"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M41.28 27.561v3.201c0 1.061.841 1.92 1.88 1.92h3.13m2.505 0v-.219c0-.679-.264-1.33-.734-1.811l-4.794-4.902a2.48 2.48 0 0 0-1.772-.75h-13.99C26.12 25 25 26.147 25 27.561v26.89c0 1.414 1.121 2.56 2.505 2.56H46.29c1.383 0 2.505-1.146 2.505-2.56v-8.963"
+              fill="#62E0D9"
+            />
+            <path
+              d="M33.766 49.33v3.84h3.757l11.898-12.164-3.757-3.841-11.898 12.164zm15.655-8.324l1.328-1.358a1.951 1.951 0 0 0 0-2.717l-1.1-1.124a1.85 1.85 0 0 0-2.657 0l-1.328 1.358 3.757 3.841z"
+              stroke="#FFF"
+              stroke-width=".803"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M30.01 37.805h12.523m-12.524 3.841h11.272m-11.272 3.842h7.514"
+              stroke="#FFF"
+              stroke-width=".803"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <g>
+              <path
+                d="M32.367 59.432c0 1.972-1.61 3.572-3.596 3.572H3.596c-1.985 0-3.596-1.6-3.596-3.572v-17.86C0 39.6 1.61 38 3.596 38h25.175c1.985 0 3.596 1.6 3.596 3.572v17.86zM10.789 44.55a2.987 2.987 0 0 1-2.997 2.976 2.987 2.987 0 0 1-2.997-2.976 2.987 2.987 0 0 1 2.997-2.977 2.987 2.987 0 0 1 2.997 2.977z"
+                fill="#62E0D9"
+              />
+              <path
+                stroke="#FFF"
+                stroke-width=".65"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M26.786 58.656L19.737 51.2 16.8 54.307l-4.112-4.349-8.224 8.698"
+              />
+            </g>
+          </g>
+        </svg>
+        <h2 class="font-raleway text-lg font-bold mt-6 mb-2">
+          Store any type of file
+        </h2>
+        <p class="font-open-sans">
+          Whether you're sharing holidays photos or work documents, Fylo has you
+          covered allowing for all file types to be securely stored and shared.
+        </p>
+      </article>
+    </section>
+    <section class="text-white pt-20 px-9">
+      <img src="./images/illustration-stay-productive.png" alt="" />
+      <div>
+        <h3 class="font-raleway text-lg font-bold mt-12 mb-4">
+          Stay productive, wherever you are
+        </h3>
+        <p class="font-open-sans text-sm mb-4">
+          Never let location be an issue when accessing your files. Fylo has you
+          covered for all of your file storage needs.
+        </p>
+        <p class="font-open-sans text-sm mb-4">
+          Securely share files and folders with friends, family and colleagues
+          for live collaboration. No email attachments required.
+        </p>
+        <a
+          class="inline-block font-open-sans text-xs text-primary border-primary border-b pb-2"
+          href="#0"
+          >See how Fylo works &nbsp;
+          <img class="inline-block" src="./images/icon-arrow.svg" alt=""
+        /></a>
+      </div>
+    </section>
+    <section class="text-white py-40 px-12">
+      <h4 class="sr-only">Testimonials</h4>
+      <ul class="testimonial_gallery relative grid grid-rows-3 gap-6">
+        <li>
+          <article class="font-open-sans bg-blue-reviews px-5 py-6">
+            <p class="text-[0.625rem] mb-4 leading-5">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="flex items-center gap-2">
+              <img
+                class="h-6 rounded-full"
+                src="./images/profile-1.jpg"
+                alt=""
+              />
+              <div>
+                <p class="text-[0.625rem] font-bold">Satish Patel</p>
+                <p class="text-[0.5rem]">Founder & CEO, Huddle</p>
+              </div>
             </div>
-          </div>
-        </article>
-        <article class="font-open-sans">
-          <p class="text-[0.625rem]">
-            Fylo has improved our team productivity by an order of magnitude.
-            Since making the switch our team has become a well-oiled
-            collaboration machine.
-          </p>
-          <div>
-            <img src="./images/profile-2.jpg" alt="" />
-            <div>
-              <p class="text-[0.625rem]">Bruce McKenzie</p>
-              <p class="text-[0.5rem]">Founder & CEO, Huddle</p>
+          </article>
+        </li>
+        <li>
+          <article class="font-open-sans bg-blue-reviews px-5 py-6">
+            <p class="text-[0.625rem] mb-4 leading-5">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="flex items-center gap-2">
+              <img
+                class="h-6 rounded-full"
+                src="./images/profile-2.jpg"
+                alt=""
+              />
+              <div>
+                <p class="text-[0.625rem] font-bold">Bruce McKenzie</p>
+                <p class="text-[0.5rem]">Founder & CEO, Huddle</p>
+              </div>
             </div>
-          </div>
-        </article>
-        <article class="font-open-sans">
-          <p class="text-[0.625rem]">
-            Fylo has improved our team productivity by an order of magnitude.
-            Since making the switch our team has become a well-oiled
-            collaboration machine.
-          </p>
-          <div>
-            <img src="./images/profile-3.jpg" alt="" />
-            <div>
-              <p class="text-[0.625rem]">Iva Boyd</p>
-              <p class="text-[0.5rem]">Founder & CEO, Huddle</p>
+          </article>
+        </li>
+        <li>
+          <article class="font-open-sans bg-blue-reviews px-5 py-6">
+            <p class="text-[0.625rem] mb-4 leading-5">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="flex items-center gap-2">
+              <img
+                class="h-6 rounded-full"
+                src="./images/profile-3.jpg"
+                alt=""
+              />
+              <div>
+                <p class="text-[0.625rem] font-bold">Iva Boyd</p>
+                <p class="text-[0.5rem]">Founder & CEO, Huddle</p>
+              </div>
             </div>
-          </div>
-        </article>
-      </section>
-      <section class="text-white">
-        <h4 class="text-lg">Get early access today</h4>
-        <p class="text-sm">
+          </article>
+        </li>
+      </ul>
+    </section>
+    <section class="cta_section text-white px-5 py-3">
+      <article
+        class="cta_section_form px-10 py-7 rounded bg-blue-email text-center"
+      >
+        <h4 class="text-lg font-bold mb-4">Get early access today</h4>
+        <p class="text-sm mb-8">
           It only takes a minute to sign up and our free starter tier is
           extremely generous. If you have any questions, our support team would
           be happy to help you.
         </p>
-        <form action="">
-          <input type="email" aria-label="" /><button class="text-sm">
+        <form class="flex flex-col justify-center gap-6" action="">
+          <input
+            class="px-6 py-3 rounded-full placeholder:opacity-60 placeholder:text-xs"
+            type="email"
+            placeholder="email@example.com"
+            aria-label=""
+          /><button class="text-sm font-bold py-4 bg-secondary rounded-full">
             Get Started For Free
           </button>
         </form>
-      </section>
-    </main>
-    <footer>
-      <div class="text-white font-open-sans">
-        <a href="#0"><img src="./images/logo.svg" alt="Fylo brand logo" /></a>
+      </article>
+    </section>
+    <footer class="bg-blue-footer">
+      <div class="text-white font-open-sans pt-20 pb-14 px-7">
+        <a class="inline-block ml-3 mb-9" href="#0"
+          ><img class="h-6" src="./images/logo.svg" alt="Fylo brand logo"
+        /></a>
         <div>
-          <div>
-            <p class="text-base">
+          <div class="grid grid-cols-[auto_1fr] gap-6 text-base mb-4">
+            <svg width="13" height="18" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M6.188 0C2.74 0 0 2.79 0 6.3 0 10.98 6.188 18 6.188 18s6.187-7.02 6.187-11.7c0-3.51-2.74-6.3-6.188-6.3zm0 8.55c-1.238 0-2.21-.99-2.21-2.25s.972-2.25 2.21-2.25c1.237 0 2.21.99 2.21 2.25s-.973 2.25-2.21 2.25z"
+                fill="#FFF"
+                fill-rule="evenodd"
+              />
+            </svg>
+            <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
           </div>
-          <div class="text-sm">
-            <p>+1-543-123-4567</p>
-            <p>example@fylo.com</p>
+          <div class="grid gap-4 text-sm">
+            <div class="grid grid-cols-[auto_1fr] items-center gap-4">
+              <svg width="18" height="18" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M17 12.5c-1.2 0-2.4-.2-3.6-.6-.3-.1-.7 0-1 .2l-2.2 2.2c-2.8-1.4-5.1-3.8-6.6-6.6l2.2-2.2c.3-.3.4-.7.2-1-.3-1.1-.5-2.3-.5-3.5 0-.6-.4-1-1-1H1C.4 0 0 .4 0 1c0 9.4 7.6 17 17 17 .6 0 1-.4 1-1v-3.5c0-.6-.4-1-1-1zM16 9h2c0-5-4-9-9-9v2c3.9 0 7 3.1 7 7zm-4 0h2c0-2.8-2.2-5-5-5v2c1.7 0 3 1.3 3 3z"
+                  fill="#FFF"
+                  fill-rule="evenodd"
+                />
+              </svg>
+              <p>+1-543-123-4567</p>
+            </div>
+            <div class="grid grid-cols-[auto_1fr] items-center gap-4">
+              <svg width="20" height="16" xmlns="http://www.w3.org/2000/svg">
+                <g fill="none" fill-rule="evenodd">
+                  <path d="M-2-4h24v24H-2z" />
+                  <path
+                    d="M18 0H2C.9 0 0 .9 0 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2zm0 14h-2V5.2L10 9 4 5.2V14H2V2h1.2L10 6.2 16.8 2H18v12z"
+                    fill="#FFF"
+                  />
+                </g>
+              </svg>
+              <p>example@fylo.com</p>
+            </div>
           </div>
-          <nav>
-            <ul class="text-base">
+          <nav class="grid gap-12 text-base py-14 sm:grid-cols-2">
+            <ul class="grid gap-4">
               <li><a href="#0">About Us</a></li>
               <li><a href="#0">Jobs</a></li>
               <li><a href="#0">Press</a></li>
               <li><a href="#0">Blog</a></li>
             </ul>
-          </nav>
-          <nav>
-            <ul class="text-base">
+            <ul class="grid gap-4">
               <li><a href="#0">Contact Us</a></li>
               <li><a href="#0">Terms</a></li>
               <li><a href="#0">Privacy</a></li>
             </ul>
           </nav>
           <!-- SOCIAL MEDIA LINKS -->
-          <div>
-            <ul>
-              <li><a href="#0"></a></li>
-              <li><a href="#0"></a></li>
-              <li><a href="#0"></a></li>
+          <div class="flex justify-center col-span-full">
+            <ul class="flex items-center justify-center gap-2">
+              <li>
+                <a
+                  class="flex items-center justify-center border-white border border-solid rounded-full p-2"
+                  href="#0"
+                  ><svg
+                    class="fill-white"
+                    height="17"
+                    width="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512"
+                  >
+                    <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                    /></svg
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="flex items-center justify-center border-white border border-solid rounded-full p-2"
+                  href="#0"
+                  ><svg
+                    class="fill-white"
+                    height="17"
+                    width="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                  >
+                    <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                    /></svg
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="flex items-center justify-center border-white border border-solid rounded-full p-2"
+                  href="#0"
+                  ><svg
+                    class="fill-white"
+                    height="17"
+                    width="17"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                    /></svg
+                ></a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
-      <div>
+      <div class="mb-4">
         <p class="attribution text-white">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"

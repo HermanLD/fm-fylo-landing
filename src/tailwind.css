@@ -2,10 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
+@layer components {
+  .testimonial_gallery::before {
+    content: url("../images/bg-quotes.png");
+    position: absolute;
+    top: -7%;
+    left: -3%;
+    z-index: -1;
+  }
+
+  .cta_section {
+    background: linear-gradient(
+      to bottom,
+      #00000000 0%,
+      #00000000 50%,
+      theme("colors.blue-footer") 50%,
+      theme("colors.blue-footer") 100%
+    );
+  }
+
+  .cta_section_form {
+    box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
 }
