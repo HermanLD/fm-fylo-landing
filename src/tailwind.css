@@ -6,8 +6,8 @@
   .testimonial_gallery::before {
     content: url("../images/bg-quotes.png");
     position: absolute;
-    top: -7%;
-    left: -3%;
+    top: -30px;
+    left: -10px;
     z-index: -1;
   }
 
