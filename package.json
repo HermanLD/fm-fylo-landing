@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Fylo dark theme landing page with email newsletter sign-up",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/tailwind.css -o ./dist/style.css --watch",
-    "build": "npx tailwindcss -i ./src/tailwind.css -o ./dist/style.css"
+    "dev": "npx tailwindcss -i ./src/tailwind.css -o ./css/style.css --watch",
+    "build": "npx tailwindcss -i ./src/tailwind.css -o ./css/style.css"
   },
   "author": "Herman Dardon",
   "license": "MIT"

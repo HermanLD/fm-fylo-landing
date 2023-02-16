@@ -5,8 +5,10 @@ module.exports = {
     colors: {
       primary: "hsl(176, 68%, 64%)",
       secondary: "hsl(198, 60%, 50%)",
+      "secondary-2": "#8ADAE3",
       alert: "hsl(0, 100%, 63%)",
       white: "hsl(0, 0%, 100%)",
+      black: "hsl(0, 0%, 0%)",
       "blue-reviews": "hsl(219, 30%, 18%)",
       "blue-email": "hsl(217, 28%, 15%)",
       "blue-main": "hsl(218, 28%, 13%)",

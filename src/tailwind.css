@@ -3,6 +3,20 @@
 @tailwind utilities;
 
 @layer components {
+  .hero_bg_container {
+    background-image: url("../images/bg-curvy-mobile.svg"),
+      linear-gradient(
+        to bottom,
+        #00000000 0%,
+        #00000000 60%,
+        theme("colors.blue-main") 60%,
+        theme("colors.blue-main") 100%
+      );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
   .testimonial_gallery::before {
     content: url("../images/bg-quotes.png");
     position: absolute;
@@ -14,8 +28,8 @@
   .cta_section {
     background: linear-gradient(
       to bottom,
-      #00000000 0%,
-      #00000000 50%,
+      theme("colors.blue-main") 0%,
+      theme("colors.blue-main") 50%,
       theme("colors.blue-footer") 50%,
       theme("colors.blue-footer") 100%
     );
@@ -25,11 +39,45 @@
     box-shadow: 3px 3px 9px 4px rgba(0, 0, 0, 0.2);
   }
 
+  .cta_email_input {
+    position: relative;
+  }
+  .cta_email_input[data-input-error-state="email-missing"]::after,
+  .cta_email_input[data-input-error-state="not-email"]::after {
+    content: "Error, please check your email";
+    position: absolute;
+    left: 20px;
+    bottom: -15px;
+    font-size: 0.625rem;
+
+    color: theme(colors.alert);
+  }
+
+  .social_links:hover {
+    border-color: theme(colors.primary);
+  }
+  .social_links:hover > svg {
+    fill: theme(colors.primary);
+  }
+
   .attribution {
     font-size: 11px;
     text-align: center;
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
+  }
+}
+
+@media screen (min-width: 1024px) {
+  .hero_bg_container {
+    background-image: url("../images/bg-curvy-desktop.svg"),
+      linear-gradient(
+        to bottom,
+        #00000000 0%,
+        #00000000 60%,
+        #00000000 60%,
+        #00000000 100%
+      );
   }
 }
